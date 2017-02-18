@@ -1,0 +1,143 @@
+﻿<DOCTYPE HTML />
+<html>
+<head>
+<title>canvas</title>
+<script type="text/javascript" src="canvasDemo.js"></script>
+<script type ="text/javascript">
+    window.onload = function () {
+        var canvas = document.getElementById("myCanvas");
+        var paint = new Paint(canvas);
+        paint.inlay();
+    }
+</script>
+<style>
+#title
+{
+	position:absolute;
+	top:50px;
+	left:230px;
+	font-size:400%;
+	background-color:blue;
+	color:white;
+}
+
+#toolBoxTitle
+{	
+	position:absolute;
+	top:150px;
+	left:330px;
+	font-size:200%;
+}
+
+#myCanvas
+{	
+	position:absolute;
+	top:50px;
+	left:700px;
+}
+
+#wordSelect
+{
+	position:absolute;
+	left:380px;
+	top:250px;
+}
+
+#wordRange
+{
+	position:absolute;
+	top:300px;
+	left:380px;
+	width:150px;
+	height:20px;
+}
+
+#lineRange
+{
+	position:absolute;
+	top:350px;
+	left:380px;
+	width:150px;
+	height:20px;
+}
+
+.colorButton
+{
+	height:20px;
+	width:20px;
+	border-style:solid;
+	border-color:black;
+	border-width:1px;
+}
+
+#eraser_l
+{
+	height:20px;
+	width:20px;
+	position:absolute;
+	top:445px;
+	left:380px;
+	border-width:1px;
+	border-style:solid;
+	border-color:black;
+	background-color:white;
+}
+
+#eraser_m
+{
+	height:15px;
+	width:15px;
+	position:absolute;
+	top:447.5px;
+	left:405px;
+	border-width:1px;
+	border-style:solid;
+	border-color:black;
+	background-color:white;
+}
+
+#eraser_s
+{
+	height:10px;
+	width:10px;
+	position:absolute;
+	top:450px;
+	left:425px;
+	border-width:1px;
+	border-style:solid;
+	border-color:black;
+	background-color:white;
+}
+</style>
+</head>
+<body>
+<!--title-->
+<h id="title">我的日记本</h>
+<p id="toolBoxTitle">工具:</p>
+<!--choose font-family-->
+<label for="wordSelect" style="position:absolute;left:330px;top:250px;">字体:</label>
+<select id="wordSelect">
+<option>serif</option>
+<option>Times</option>
+<option>Georgia</option>
+</select>
+<!--choose font-size-->
+<label for="wordRange" style="position:absolute;left:300px;top:300px;">字体大小:</label>
+<input id="wordRange" type="range" min=1 max=10 step =1 value =5/>
+<!--choose context.lineWidth-->
+<label for="lineRange" style="position:absolute;left:300px;top:350px;">线条粗细:</label>
+<input id="lineRange" type="range" min=1 max=10 step =1 value =5/>
+<!--choose context.strokeStyle-->
+<label for="colorButton" style="position:absolute;left:300px;top:400px;">线条颜色:</label>
+<button class="colorButton" id="colorButtonRed" name="red"  style="background-color:red;position:absolute;top:400px;left:380px;"></button>
+<button class="colorButton" id="colorButtonBlue" name="blue"  style="background-color:blue;position:absolute;top:400px;left:430px;"></button>
+<button class="colorButton" id="colorButtonGreen" name="green"  style="background-color:green;position:absolute;top:400px;left:405px;"></button>
+<!--eraser-->
+<label style="position:absolute;left:316px;top:445px;">橡皮擦:</label>
+<button id="eraser_l"></button>
+<button id="eraser_m"></button>
+<button id="eraser_s"></button>
+<!--canvas-->
+<canvas id="myCanvas" width="500" height="600" style="border: solid 1px blue;"/>
+</body>
+</html>
