@@ -1,0 +1,52 @@
+#navigation
+{
+  border-radius:5px;
+  background-color:#e1e1e1;
+}
+
+#navigation_right
+{
+  float:right;
+  background-color:#e1e1e1;
+  position:relative;
+  top:3px;
+}
+.lavaLamp 
+{ 
+  float:left;
+	border-radius:5px;
+	background: #e1e1e1;  
+	margin: 0px 0px; 
+	overflow: hidden;
+} 
+.lavaLamp li 
+{ 
+	float: left; 
+	list-style: none;
+} 
+.lavaLamp li.back 
+{ 
+	background:#f15a24; 
+	width: 9px; 
+	height: 30px; 
+	z-index: 8; 
+	position: absolute; 
+	border-radius:6px;
+} 
+.lavaLamp li.back .left 
+{ 
+	background: #f15a24; 
+	height: 30px; 
+	margin-right: 9px; 
+	border-radius:6px;
+}
+.lavaLamp li a 
+{ 
+	position: relative; 
+	text-decoration: none; 
+	font: bold 14px/29px Microsoft YaHei; 
+	font-size:20px;
+	color: #70706e;
+	z-index: 10;
+	margin: auto 20px; 
+}

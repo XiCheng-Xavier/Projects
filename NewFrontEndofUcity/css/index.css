@@ -1,0 +1,221 @@
+
+body
+{
+  background-color : white;
+  font-family:Microsoft YaHei;
+  background-image:url("../images/background.png");
+}
+
+
+#Ucity_web
+{
+    margin : 0px auto;
+    width : 960px;
+}
+
+
+#login
+{
+  height : 25px;
+  background-color : #fbaa25;
+}
+#login_right
+{
+  float:right;
+}
+
+#content
+{
+  border : 6px solid #f15a24;
+  border-top: 3px solid #f15a24;
+  border-bottom:0px;  
+  padding: 10px;
+  background-color :#f0f0f0;
+}
+#scrollbar
+{
+  float:left;
+}
+#U_news
+{
+  float :right;
+  position:relative;
+  width :400px;
+  height:370px;
+  background-color:#e1e1e1;
+}
+#U_news_hot
+{
+  position:relative;
+  top:6px;
+  left:8px;
+}
+@media all and (-webkit-min-device-pixel-ratio:10000), not all and (-webkit-min-device-pixel-ratio:0){#U_news_hot{top:2px;}}
+#U_news_Logo
+{
+  position:relative;
+  top:-12px;
+  left:255px;
+}
+.U_news_div
+{
+  border:3px solid #f35925;
+  width: 180px;
+  height: 120px;
+  border-bottom:20px solid #4c4c4c;
+  background-color:#727272;
+  border-color:#4c4c4c;
+}
+#U_news_image01
+{
+  float:left;
+  position :relative;
+  left:10px;
+  background-color:#f8b042;
+  border-color:#f05b23;
+}
+#U_news_image02
+{
+  float:right;
+  position :relative;
+  left:-10px;
+}
+#U_news_image03
+{
+  float:left;
+  position :relative;
+  left:10px;
+  top:10px;
+}
+#U_news_image04
+{
+  float:right;
+  position :relative;
+  left:-10px;
+  top:10px;
+}
+.U_news_image img
+{
+  width: 130px;
+  height: 80px;
+}
+.U_news_image
+{
+  position:relative;
+  left:10px;
+  top:10px;
+}
+
+
+#U_news_image01_title
+{
+  position :relative;
+  left:-10px;
+  font-size:14px;
+}
+#U_news_image02_title
+{
+  position :relative;
+  left:-10px;
+  font-size:14px;
+}
+#U_news_image03_title
+{
+  position :relative;
+  left:-10px;
+  font-size:14px;
+}
+#U_news_image04_title
+{
+  position :relative;
+  left:-10px;
+  font-size:14px;
+}
+
+#hidden_news
+{
+  clear :both;
+}
+.hidden_news_left { width :49%; float:left;display:none; }
+.hidden_news_right{ width :49%; float:right;display:none; }
+
+
+#E_shop
+{
+  border : 6px solid #f15a24;
+  border-top: 3px solid #f15a24; 
+  border-bottom:0px; 
+  padding: 10px;
+  height:150px;
+}
+
+
+.section_son
+{
+    height:150px;
+    border : 6px solid #f15a24;
+    border-top : 3px solid #f15a24;
+    border-bottom:0px;
+    background-color: #f0f0f0; 
+}
+#food { border-bottom:3px solid #f15a24; }
+.section_title
+{
+    float:right;
+    height:30px;
+    line-height:25px;
+    width:120px;
+    background-color:#4c4c4c;
+    text-align:center;
+}
+
+#footer
+{
+    border-top:5px solid white;   
+    text-align :center;
+    background-color:#f0f0f0;
+}
+
+.div_clear{ clear:both;}
+
+.font_style00{font-weight:bold;}
+.font_style01
+{
+  color:#fffdd0;
+}
+.font_style02
+{
+ color:#f5572a;
+ font-size:large;   
+}
+.font_style03
+{
+  color : #848484;
+  font-size:18px;
+}
+.font_style04
+{
+  color:White;
+  font-size:large;
+}
+
+
+#help_minu_image01
+{
+    height:140px;
+    width:280px;
+    float:left;
+}
+#help_minu_image02
+{
+    height:140px;
+    width:280px;
+    margin-left:46px;
+      
+}
+#help_minu_image03
+{
+    height:140px;
+    width:280px;
+      float:right;
+}
