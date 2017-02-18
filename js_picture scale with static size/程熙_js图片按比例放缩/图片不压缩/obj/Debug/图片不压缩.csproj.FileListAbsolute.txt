@@ -1,0 +1,5 @@
+F:\project code\图片不压缩\图片不压缩\bin\图片不压缩.dll
+F:\project code\图片不压缩\图片不压缩\bin\图片不压缩.pdb
+F:\project code\图片不压缩\图片不压缩\obj\Debug\ResolveAssemblyReference.cache
+F:\project code\图片不压缩\图片不压缩\obj\Debug\图片不压缩.dll
+F:\project code\图片不压缩\图片不压缩\obj\Debug\图片不压缩.pdb

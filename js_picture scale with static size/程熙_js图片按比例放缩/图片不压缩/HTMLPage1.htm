@@ -1,0 +1,53 @@
+<html> 
+ <head>
+ <meta http-equiv="content-type" content="text/html; charset=gb2312" />
+ <title>js比例缩放图片大小代码</title>
+ <script type="text/javascript">   
+ 
+     function ResetSize(maxheightsize, maxwidthsize, imag) {//比例设置函数
+         var imag1 = new Image()
+         imag1.src = imag.src;
+        imag1.height = imag.height;
+        imag1.width = imag.width;
+        if (imag.width / imag.height > maxwidthsize / maxheightsize) {
+            imag.width = maxwidthsize;
+            imag.height = imag.height * maxwidthsize / imag1.width;
+        }
+        else {
+            imag.height = maxheightsize;
+            imag.width = imag.width * maxheightsize / imag1.height;
+        }
+       }  
+
+
+
+
+
+
+/*     function downimage(imgd){  //只设置宽度要求   
+    var image=new Image();     
+    image.src=imgd.src;     
+        
+    if(image.width>0 && image.height>0){     
+            
+        if(image.width>=200){     
+            imgd.width=200;     
+            imgd.height=(image.height*200)/image.width;     
+        }else{     
+            imgd.width=image.width;     
+            imgd.height=image.height;     
+        }      
+    }     
+} */    
+   
+   
+</script>
+ 
+</head>
+ 
+<body>
+<img alt="Welcome to Ucity" src="UcityBanner.jpg" onload="ResetSize(100,800,this)"/>
+<!--<img alt="Welcome to Ucity"src="UcityBanner.jpg" onload="downimage(this)">-->
+ </body>
+ </html>
+ 
