@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>msg</key>
+		<string>在吗？</string>
+		<key>ismine</key>
+		<false/>
+	</dict>
+	<dict>
+		<key>msg</key>
+		<string>在，找我有什么事？</string>
+		<key>ismine</key>
+		<true/>
+	</dict>
+	<dict>
+		<key>msg</key>
+		<string>我想请教你一个问题</string>
+		<key>ismine</key>
+		<false/>
+	</dict>
+	<dict>
+		<key>msg</key>
+		<string>说</string>
+		<key>ismine</key>
+		<true/>
+	</dict>
+	<dict>
+		<key>msg</key>
+		<string>下次问我问题直接留言，我看到就回</string>
+		<key>ismine</key>
+		<true/>
+	</dict>
+	<dict>
+		<key>msg</key>
+		<string>我想实现一个对话功能，对话有对话框框住，就像手机qq的对话一样，要怎么做？</string>
+		<key>ismine</key>
+		<false/>
+	</dict>
+	<dict>
+		<key>msg</key>
+		<string>这个用tableView可以实现，我发个demo给你吧，有详细的注释，你自己参透一下，搞不定就再找我</string>
+		<key>ismine</key>
+		<true/>
+	</dict>
+	<dict>
+		<key>msg</key>
+		<string>谢谢</string>
+		<key>ismine</key>
+		<false/>
+	</dict>
+</array>
+</plist>
